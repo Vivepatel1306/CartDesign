@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle Builder - Save 30%</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Buy 3 and Save 30%</h1>
+        </header>
+
+        <main>
+            <section class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-id="2">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1515886657613-9f3515b0c78f.jpg" alt="Sunburst Trackault">
+                    </div>
+                    <h3>Sunburst Trackault</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-id="1">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1603344797033-f0f4f587ab60.jpg" alt="The-Dye Lounge Set">
+                    </div>
+                    <h3>The-Dye Lounge Set</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+
+
+                <!-- Product 3 -->
+                <div class="product-card" data-id="3">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1529139574466-a303027c1d8b.jpg" alt="Retro Red Streetwear">
+                    </div>
+                    <h3>Retro Red Streetwear</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-id="4">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1588117260148-b47818741c74.jpg" alt="Urban Sportwear Combo">
+                    </div>
+                    <h3>Urban Sportwear Combo</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-id="5">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1432149877166-f75d49000351.jpg" alt="Unlimited Knit & Coat">
+                    </div>
+                    <h3>Unlimited Knit & Coat</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-id="6">
+                    <div class="product-image">
+                        <img src="./Photos/photo-1608748010899-18f300247112.jpg" alt="Cake Monochrome Blazer">
+                    </div>
+                    <h3>Cake Monochrome Blazer</h3>
+                    <p class="price">$150.00</p>
+                    <button class="add-to-bundle">Add to Bundle</button>
+                </div>
+            </section>
+
+            <aside class="bundle-sidebar">
+                <h2>Create a Bundle</h2>
+                <p class="bundle-info">Add at least 3 products and Save 30%.</p>
+
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text">0/3 added</span>
+                </div>
+
+                <div class="selected-products">
+                    <!-- Selected products will be added here dynamically -->
+                </div>
+
+                <div class="discount-info">
+                    <p class="discount-amount">Discount: $0.00 (0%)</p>
+                    <p class="subtotal">Subtotal: $0.00</p>
+                </div>
+
+                <button class="add-to-cart" disabled>Add Bundle to Cart</button>
+            </aside>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
